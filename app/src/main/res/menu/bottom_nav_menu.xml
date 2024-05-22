@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/api1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="API 1"
+        android:icon="@drawable/api"
+        />
+    <item
+        android:id="@+id/api2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="API 2"
+        android:icon="@drawable/api"
+        />
+    <item
+        android:id="@+id/navProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Profile"
+        android:icon="@drawable/profile"
+    />
+</menu>
