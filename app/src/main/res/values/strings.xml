@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">NavDrawerExample</string>
+    <string name="app_name">LatihanPAS</string>
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
+    <string name="team_badge">Lambang Tim</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

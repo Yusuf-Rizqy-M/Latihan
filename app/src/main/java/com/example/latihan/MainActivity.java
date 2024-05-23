@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import fragmentnavigasibottom.api_pertama;
+
 public class MainActivity extends AppCompatActivity {
     // SharedPreferences file name
     private static final String PREFS_NAME = "MyPrefsFile";
@@ -34,17 +36,26 @@ public class MainActivity extends AppCompatActivity {
                 // menyimpan sharedpreference
 
 
-                String username = txtUsername.getText().toString();
-                String password = txtpassword.getText().toString();
-                if (username.equals("admin") && password.equals("admin")) {
-                    editor.putString("username", txtUsername.getText().toString());
-                    editor.apply();
-                    Intent intent = new Intent(MainActivity.this, ActivityNavigasiBottom.class);
-                    startActivity(intent);
-                    finish();
-                } else {
-                    Toast.makeText(MainActivity.this, "Gagal Login", Toast.LENGTH_LONG).show();
-                }
+//                String username = txtUsername.getText().toString();
+//                String password = txtpassword.getText().toString();
+//                if (username.equals("admin") && password.equals("admin")) {
+//                    editor.putString("username", txtUsername.getText().toString());
+//                    editor.apply();
+//                    Intent intent = new Intent(MainActivity.this, api_pertama.class);
+//                    startActivity(intent);
+//                    finish();
+//                } else {
+//                    Toast.makeText(MainActivity.this, "Gagal Login", Toast.LENGTH_LONG).show();
+//                }
+
+                editor.putString("username", txtUsername.getText().toString());
+                editor.apply();
+
+                // intent ke home
+                Intent intent = new Intent(MainActivity.this, ActivityNavigasiBottom.class);
+                startActivity(intent);
+                finish();
+
             }
         });
     }
