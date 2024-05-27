@@ -8,9 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import fragmentnavigasibottom.api_pertama;
 
 public class MainActivity extends AppCompatActivity {
     // SharedPreferences file name
@@ -52,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 editor.apply();
 
                 // intent ke home
-                Intent intent = new Intent(MainActivity.this, ActivityNavigasiBottom.class);
+                Intent intent = new Intent(MainActivity.this, navigasi_bottom.class);
                 startActivity(intent);
                 finish();
 

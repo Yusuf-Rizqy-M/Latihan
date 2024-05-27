@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Latihan"
         tools:targetApi="31">
         <activity
-            android:name=".ActivityNavigasiBottom"
+            android:name=".navigasi_bottom"
             android:exported="false" />
         <activity android:name=".Edit" />
         <activity
